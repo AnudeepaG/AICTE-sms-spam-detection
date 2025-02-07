@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 import numpy as np
 
 # Load the LSTM model
-model = load_model('Dense_Spam_Detection.keras')
+model = load_model('Dense_Spam_Detection.h5')
 
 # Define the function to preprocess the user's input message
 def preprocess_message(message):
